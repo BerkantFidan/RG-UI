@@ -1,0 +1,207 @@
+@import url('reset.css');
+
+body{
+	background:#ededed url(../images/bg.png) repeat-x;
+	}
+
+.fix{clear:both;}
+
+hr{
+	margin:10px;
+	padding:0px;
+	border-bottom:1px solid #c5c5c5;
+	background:#919191;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	line-height:0px;
+	height:1px;
+	display:block;
+	}
+
+h1{
+	font:22px Arial;
+	color:#333;
+	text-shadow:1px 1px 0 #cdcdcd;
+	margin:15px 0 15px 0;
+}
+
+form{padding:20px 30px; font:12px Arial;}
+
+/* _input[gray] */
+form input.gray[type=submit]{
+	font:bold 11px Arial;
+	color:#393939;
+	text-shadow:1px 1px 0 #e0e0e0;
+	background:#bababa url(../images/buttons/input.gray.bg.png) repeat-x;
+	width:100px;
+	height:30px;
+	line-height:25px;
+	border:1px solid #797979;
+	border-bottom:3px solid #616161;
+	cursor:pointer;
+	}
+form input.gray[type=submit]:hover{
+	background:#ededed url(../images/buttons/input.gray.bg.hover.png) repeat-x;
+	width:100px;
+	height:30px;
+	cursor:pointer;
+}
+
+/* _input[orange] */
+form input.orange[type=submit]{
+	font:11px Arial;
+	color:#fff;
+	text-shadow:1px 1px 0 #a21f06;
+	background:#882c13 url(../images/buttons/input.orange.bg.png) repeat-x;
+	width:100px;
+	height:30px;
+	line-height:25px;
+	border:1px solid #a21f06;
+	cursor:pointer;
+	}
+form input.orange[type=submit]:hover{
+	background:#f1612e url(../images/buttons/input.orange.bg.hover.png) repeat-x;
+	width:100px;
+	height:30px;
+	cursor:pointer;
+}
+
+/* _input[red] */
+form input.red[type=submit]{
+	font:11px Arial;
+	color:#fff;
+	text-shadow:1px 1px 0 #950202;
+	background:#7e0909 url(../images/buttons/input.red.bg.png) repeat-x;
+	width:100px;
+	height:30px;
+	line-height:25px;
+	border:1px solid #950202;
+	cursor:pointer;
+	}
+form input.red[type=submit]:hover{
+	background:#c03434 url(../images/buttons/input.red.bg.hover.png) repeat-x;
+	width:100px;
+	height:30px;
+	cursor:pointer;
+}
+
+/* _input[blue] */
+form input.blue[type=submit]{
+	font:11px Arial;
+	color:#fff;
+	text-shadow:1px 1px 0 #0b5d9c;
+	background:#003569 url(../images/buttons/input.blue.bg.png) repeat-x;
+	width:100px;
+	height:30px;
+	line-height:25px;
+	border:1px solid #0b5d9c;
+	cursor:pointer;
+	}
+form input.blue[type=submit]:hover{
+	background:#0061c4 url(../images/buttons/input.blue.bg.hover.png) repeat-x;
+	width:100px;
+	height:30px;
+	cursor:pointer;
+}
+
+/* _input[yellow] */
+form input.yellow[type=submit]{
+	font:11px Arial;
+	color:#fff;
+	text-shadow:1px 1px 0 #6e6c01;
+	background:#777605 url(../images/buttons/input.yellow.bg.png) repeat-x;
+	width:100px;
+	height:30px;
+	line-height:25px;
+	border:1px solid #868402;
+	cursor:pointer;
+	}
+form input.yellow[type=submit]:hover{
+	background:#bab734 url(../images/buttons/input.yellow.bg.hover.png) repeat-x;
+	width:100px;
+	height:30px;
+	cursor:pointer;
+}
+
+/* _input[green] */
+form input.green[type=submit]{
+	font:11px Arial;
+	color:#fff;
+	text-shadow:1px 1px 0 #3d7802;
+	background:#226c01 url(../images/buttons/input.green.bg.png) repeat-x;
+	width:100px;
+	height:30px;
+	line-height:25px;
+	border:1px solid #4f9708;
+	cursor:pointer;
+	}
+form input.green[type=submit]:hover{
+	background:#7dc700 url(../images/buttons/input.green.bg.hover.png) repeat-x;
+	width:100px;
+	height:30px;
+	cursor:pointer;
+}
+
+/* _textarea[clear] */
+form textarea.clear, form textarea.clear:focus{
+	font:12px Arial;
+	color:#000;
+	text-shadow:1px 1px 0 #dcdcdc;
+	width:350px;
+	height:80px;
+	background:#ccc url(../images/textarea.input/textarea.clear.bg.png) repeat-x;
+	border:1px solid #606060;
+	padding:10px;
+	outline-width: 0;
+	}
+	
+form textarea.clear::-webkit-input-placeholder {color:#000;}
+form textarea.clear:-moz-placeholder {color:#000;}
+form textarea.clear:-ms-placeholder {color:#000;}
+
+
+/* _textarea[dark] */
+form textarea.dark, form textarea.dark:focus{
+	font:12px Arial;
+	color:#606060;
+	text-shadow:1px 1px 0 #000;
+	width:350px;
+	height:80px;
+	background:#323232 url(../images/textarea.input/textarea.dark.bg.png) repeat-x;
+	border:1px solid #000;
+	padding:10px;
+	outline-width: 0;
+	}
+	
+form textarea.dark::-webkit-input-placeholder {color:#606060;}
+form textarea.dark:-moz-placeholder {color:#606060;}
+form textarea.dark:-ms-placeholder {color:#606060;}
+
+
+/* input[clear] */
+form input.gray[type="text"], form input.gray[type="text"]:focus{
+	width:200px;
+	height:20px;
+	background:url(../images/asdad.png);
+	background-position:center right;
+	font:11px Arial;
+	text-shadow:1px 1px 0 #fff;
+	color:#666;
+	border:1px solid #898989;
+	outline:none;
+	padding:5px;
+}
+
+/* standart[labels] */
+form label{
+	display:block;
+	float:left;
+	width:200px;
+	height:30px;
+	line-height:28px;
+	padding:5px;
+	font:11px Arial;
+	color:#313131;
+	text-shadow:1px 1px 0 #c9c9c9;
+	}
